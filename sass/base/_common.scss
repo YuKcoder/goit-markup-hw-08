@@ -129,4 +129,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+
+  @media screen and (max-width: 1199.98px) {
+    font-size: 28px;
+  }
 }
