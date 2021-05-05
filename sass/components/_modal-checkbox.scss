@@ -3,9 +3,17 @@
 }
 
 .modal-checkbox__label {
-  font-size: 14px;
+  font-size: 12px;
   line-height: normal;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width: 479.98px) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .modal-checkbox__icon-box {
