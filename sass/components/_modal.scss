@@ -19,10 +19,8 @@
     visibility: inherit;
     pointer-events: none;
 
-    @media screen and (min-width: 768px) {
-      .modal {
-        transform: translate(-50%, -50%) scale(0.3);
-      }
+    .modal {
+      transform: translate(-50%, -50%) scale(0.3);
     }
   }
 }

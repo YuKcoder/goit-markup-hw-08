@@ -14,4 +14,8 @@
 
   background-color: var(--accent-color);
   border-radius: 2px;
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
 }
