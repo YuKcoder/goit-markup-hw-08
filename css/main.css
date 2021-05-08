@@ -786,11 +786,11 @@ img {
 @media screen and (max-width: 767.98px) {
   .header-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    min-height: 796px;
+    width: 100vw;
+    height: 100vh;
     padding: 48px 40px;
     background-color: #fff;
     z-index: 3;
